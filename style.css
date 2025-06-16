@@ -1,0 +1,422 @@
+.nb-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    gap: 30px;
+}
+
+.main{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.m1{
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(234, 195, 2); 
+}
+
+.lens{
+    margin-left: 150px;
+}
+
+.para{
+    width: 450px;
+    font-size: larger;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.home{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img{
+    display: flex;
+    margin-top: 100px;
+}
+
+.aside{
+    margin-left: 150px;
+}
+
+.arrow{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+
+.a2{
+    background-color: rgb(234, 195, 2);
+    display: inline;
+    justify-content: start;
+    margin-left: 15px;
+    border: none;
+}
+
+.body{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.veg{
+    font-weight: bolder;
+}
+
+.buy{
+    margin-top: 50px;
+    font-weight: 400;
+    background-color: rgb(234, 195, 2);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+
+.read{
+    margin-top: 50px;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    padding: 10px 40px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+.img1{
+    margin-left: 50%;
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.para_text{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    text-align: center;
+    width: 525px;
+    margin-left: 530px;
+    margin-bottom: 35px;
+    font-size: large;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+}
+
+.veg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.p2{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 565px;
+    margin-bottom: 100px;
+}
+
+.card-1{
+    display: inline-block;
+    border: dotted;
+    margin-left: 20px;
+    width: 200px;
+    height: 400px;
+    gap: 20px;
+}
+
+.card-2{
+    display: inline-block;
+    border: dotted;
+    margin-left: 20px;
+    width: 200px;
+    height: 400px;
+    gap: 20px;
+}
+
+.veg-logo1{
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo2{
+    width: auto;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo3{
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo4{
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo5{
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo6{
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo7{
+    width: auto;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo8{
+    width: auto;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo9{
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.veg-logo10{
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.logo1{
+    margin-left: 225px;
+}
+
+.price{
+    text-align: center;
+}
+
+.p3{
+    text-align: center;
+}
+
+.btn2{
+    margin-left: 50px;
+    border: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.rs{
+    margin-top: 10px;
+    color: rgb(234, 195, 2);
+}
+
+.kg{
+    color: rgb(234, 195, 2);
+}
+
+.r1{
+    margin-left: 700px;
+}
+
+.img3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+.p4{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 565px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.logo2{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.last{
+    margin-left: 500px;
+}
+
+.p5{
+
+    width: 400px;
+    margin-left: 500px;
+}
+
+.logo3{
+    margin-top: 50px;
+    margin-left: 1350px;
+}
+
+.lname{
+    color: rgb(234, 195, 2);
+}
+
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 500px;
+}
+.contact-form {
+    flex: 1;
+    padding: 40px;
+    margin-left: 150px;
+    background-color: white;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(188, 185, 185);
+    border-radius: 4px;
+}
+.contact-form button {
+    padding: 10px 50px;
+    background-color: rgb(234, 195, 2);
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-left: 250px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.contact-map {
+    flex: 1;
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    border: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.footer-column h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-column p, .footer-column a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-column i {
+    margin-right: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 350px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.newsletter button {
+    background-color: rgb(234, 195, 2);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
