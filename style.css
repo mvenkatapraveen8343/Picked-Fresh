@@ -259,12 +259,13 @@
 }
 
 .btn2{
-    margin-left: 50px;
+    margin-left: 35px;
+    margin-top: 5px;
     border: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 5px;
     background-color: black;
     color: white;
@@ -277,6 +278,10 @@
 
 .kg{
     color: rgb(234, 195, 2);
+}
+
+.vege{
+    font-weight: bold;
 }
 
 .r1{
@@ -302,14 +307,32 @@
     margin-top: 100px;
 }
 
+.last_page{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
 .last{
-    margin-left: 500px;
+    width: 180px;
+    height: 180px;
+    margin-left: 450px;
+}
+
+.ltext{
+    margin-top: 100px;
+    font-size: small
 }
 
 .p5{
-
-    width: 400px;
-    margin-left: 500px;
+    text-align: left;
+    font-weight: 400;
+    word-spacing: 5px;
+    width: 450px;
+    margin-left: 480px;
 }
 
 .logo3{
@@ -419,4 +442,16 @@
     text-align: center;
     padding: 15px;
     font-size: 14px;
+}
+
+.active:hover{
+    color: rgb(234, 195, 2);
+}
+
+.read:hover{
+    background-color: rgb(234, 195, 2);
+}
+
+.btn2:hover{
+    background-color: rgb(234, 195, 2);
 }
