@@ -455,3 +455,172 @@
 .btn2:hover{
     background-color: rgb(234, 195, 2);
 }
+
+/* Responsive Additions */
+@media (max-width: 1200px) {
+    .home {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .img2, .img3 {
+        margin-left: 200px;
+    }
+    .para_text {
+        margin-left: 330px;
+    }
+    .btn1 {
+        margin-left: 500px;
+    }
+    .p2, .p4, .p5 {
+        margin-left: 400px;
+    }
+    .r1 {
+        margin-left: 500px;
+    }
+    .logo3 {
+        margin-left: 1000px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main, .m1 {
+        font-size: 60px;
+    }
+    .para {
+        width: 350px;
+    }
+    .img2, .img3 {
+        margin-left: 150px;
+        max-width: 80%;
+    }
+    .p2, .p4, .p5 {
+        margin-left: 300px;
+    }
+    .card-1, .card-2 {
+        width: 180px;
+        height: 380px;
+    }
+    .btn1, .r1 {
+        margin-left: 400px;
+    }
+    .logo3 {
+        margin-left: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rows.home {
+        flex-direction: column;
+    }
+    .img {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .body {
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .para {
+        margin: 20px auto;
+        width: 90%;
+    }
+    .img2, .img3 {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    .para_text, .p2, .p4, .p5 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .btn1, .r1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .card-1, .card-2 {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .veg-logo1, .veg-logo2, .veg-logo3, 
+    .veg-logo4, .veg-logo5, .veg-logo6, 
+    .veg-logo7, .veg-logo8, .veg-logo9, 
+    .veg-logo10 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .logo1 {
+        margin-left: auto;
+    }
+    .last_page {
+        flex-direction: column;
+        text-align: center;
+    }
+    .last {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-section {
+        flex-direction: column;
+    }
+    .contact-form {
+        margin-left: 0;
+        width: 100%;
+    }
+    .contact-map {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .footer-column {
+        margin-left: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .logo3 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .main, .m1 {
+        font-size: 40px;
+    }
+    .para {
+        width: 90%;
+        font-size: 16px;
+    }
+    .arrow {
+        height: 50px;
+        width: 50px;
+    }
+    .section-title, .veg1, .about {
+        font-size: 40px;
+    }
+    .p2, .p4 {
+        font-size: 16px;
+    }
+    .contact-form button {
+        margin-left: 0;
+        width: 100%;
+    }
+    .logo3 {
+        margin-top: 30px;
+    }
+    .nb-text {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .lens {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
