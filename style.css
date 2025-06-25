@@ -97,7 +97,6 @@
     align-items: center;
     font-weight: bold;
     font-size: 60px;
-
 }
 
 .img1{
@@ -344,7 +343,6 @@
     color: rgb(234, 195, 2);
 }
 
-
 .contact-section {
     display: flex;
     flex-wrap: wrap;
@@ -456,79 +454,45 @@
     background-color: rgb(234, 195, 2);
 }
 
-/* Responsive Additions */
-@media (max-width: 1200px) {
-    .home {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    .img2, .img3 {
-        margin-left: 200px;
-    }
-    .para_text {
-        margin-left: 330px;
-    }
-    .btn1 {
-        margin-left: 500px;
-    }
-    .p2, .p4, .p5 {
-        margin-left: 400px;
-    }
-    .r1 {
-        margin-left: 500px;
-    }
-    .logo3 {
-        margin-left: 1000px;
-    }
-}
-
-@media (max-width: 992px) {
-    .main, .m1 {
-        font-size: 60px;
-    }
-    .para {
-        width: 350px;
-    }
-    .img2, .img3 {
-        margin-left: 150px;
-        max-width: 80%;
-    }
-    .p2, .p4, .p5 {
-        margin-left: 300px;
-    }
-    .card-1, .card-2 {
-        width: 180px;
-        height: 380px;
-    }
-    .btn1, .r1 {
-        margin-left: 400px;
-    }
-    .logo3 {
-        margin-left: 800px;
-    }
-}
-
 @media (max-width: 768px) {
-    .rows.home {
+    .home {
         flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .aside {
+        margin-left: 0;
+        text-align: center;
     }
     .img {
-        margin-top: 50px;
-        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
     }
     .body {
         margin-top: 30px;
-        text-align: center;
         margin-left: 0;
+        text-align: center;
     }
     .para {
-        margin: 20px auto;
-        width: 90%;
+        width: 100%;
+        margin-right: 0;
+        padding: 0 20px;
     }
-    .img2, .img3 {
+    .img1 {
         margin-left: 0;
         display: block;
         margin: 0 auto;
+    }
+    .about, .veg1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .img2, .img3 {
+        margin-left: 0;
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 30px auto;
     }
     .para_text, .p2, .p4, .p5 {
         width: 90%;
@@ -562,58 +526,52 @@
     .last_page {
         flex-direction: column;
         text-align: center;
+        margin-top: 50px;
     }
     .last {
         margin-left: auto;
         margin-right: auto;
+    }
+    .ltext {
+        margin-top: 20px;
+    }
+    .p5 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo3 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 30px;
     }
     .contact-section {
         flex-direction: column;
     }
     .contact-form {
         margin-left: 0;
-        width: 100%;
+        padding: 20px;
+    }
+    .contact-form button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
     .contact-map {
         width: 100%;
         margin-top: 30px;
     }
+    .footer {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
     .footer-column {
         margin-left: 0;
-        margin-bottom: 30px;
         text-align: center;
     }
-    .logo3 {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-}
-
-@media (max-width: 576px) {
-    .main, .m1 {
-        font-size: 40px;
-    }
-    .para {
-        width: 90%;
-        font-size: 16px;
-    }
-    .arrow {
-        height: 50px;
-        width: 50px;
-    }
-    .section-title, .veg1, .about {
-        font-size: 40px;
-    }
-    .p2, .p4 {
-        font-size: 16px;
-    }
-    .contact-form button {
-        margin-left: 0;
+    .newsletter input[type="email"] {
         width: 100%;
-    }
-    .logo3 {
-        margin-top: 30px;
     }
     .nb-text {
         flex-direction: column;
@@ -622,5 +580,27 @@
     .lens {
         margin-left: 0;
         margin-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main, .m1 {
+        font-size: 40px;
+    }
+    .about, .veg1 {
+        font-size: 32px;
+    }
+    .buy, .read, .btn1, .btn2, .r1 {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+    .arrow {
+        height: 50px;
+        width: 50px;
+        font-size: 16px;
+    }
+    .contact-form button {
+        padding: 10px 30px;
+        font-size: 16px;
     }
 }
